@@ -1,0 +1,14 @@
+# Raw data:
+References/*/Data/
+
+# Notes:
+Notes/
+
+# Gallery:
+Gallery/
+
+# OS:
+.DS_Store
+
+# Julia:
+Manifest.toml
