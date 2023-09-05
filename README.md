@@ -1,8 +1,14 @@
-# Cold-Formed Steel (CFS) Database
+# CFSDatabase
+
+<div align="center">
+    | Build Status | Latest Release | Downloads | License |
+    | :---: | | :---: | :---: | :---: |
+    |  |  |  | [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) |
+</div>
 
 ## Description
 
-`CFSDatabase` is a large unified database of load-deformation curves for cold-formed steel members.
+`CFSDatabase` is a unified database of load-deformation curves for cold-formed steel (CFS) members.
 
 ## References
 
