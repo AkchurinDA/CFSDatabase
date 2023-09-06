@@ -1,8 +1,10 @@
 # Raw data:
-References/**/RawData/
+References/**/RawData-MAT/
+References/**/RawData-TXT/
 
-# Gallery:
-Gallery/
+# Extra:
+Gallery of Relevant Load-Deformation Curves/
+TODO.md
 
 # OS:
 .DS_Store
