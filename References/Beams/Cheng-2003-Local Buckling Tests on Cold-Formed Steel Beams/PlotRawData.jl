@@ -4,14 +4,14 @@ CairoMakie.activate!(type=:svg)
 
 # Extract test labels:
 Directory = "References/Beams/Cheng-2003-Local Buckling Tests on Cold-Formed Steel Beams/"
-rm(string(Directory, "RawData/.DS_Store"), force=true)
-Filenames = readdir(string(Directory, "RawData/"))
+rm(string(Directory, "RawData-TXT/.DS_Store"), force=true)
+Filenames = readdir(string(Directory, "RawData-TXT/"))
 NumTests = length(Filenames)
 
 # Extract load-deformation curves:
 LDCurves = Vector{Matrix{Float64}}(undef, NumTests)
 for i in 1:NumTests
-    LDCurves[i] = readdlm(string(Directory, "RawData/", Filenames[i]), ',')
+    LDCurves[i] = readdlm(string(Directory, "RawData-TXT/", Filenames[i]), ',')
 end
 
 # Plot:
